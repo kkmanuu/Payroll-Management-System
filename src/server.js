@@ -5,6 +5,7 @@ const axios = require('axios');
 const db = require('./config/db');
 require('dotenv').config();
 
+
 try {
     const inquirerVersion = require('inquirer/package.json').version;
     console.log('Inquirer version:', inquirerVersion);
